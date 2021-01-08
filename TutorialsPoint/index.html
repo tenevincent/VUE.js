@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first Vue app</title>
+		<script src="https://unpkg.com/vue@next"></script>
+	</head>
+	<body>
+		<div id="counter">
+			
+			<div>
+				Counter: {{counter}}
+			</div>
+
+			<div id = "intro" style = "text-align:center;">
+				<h1>{{ message}}</h1>
+
+				<h1>{{mydetails() }}</h1> 
+			</div>
+
+
+
+		</div>
+		
+
+
+
+		<script>
+			const Counter = {
+				data() {
+					return {
+						counter: 0,
+						message: 'My first VueJS Task',
+						firstname : "Vincent",
+						lastname  : "Tene",
+						address    : "Douala"
+						}
+					},
+
+					methods: {
+						mydetails : function() {
+										 return "I am "+this.firstname +" "+ this.lastname;
+									}
+					},	
+					
+					};
+
+Vue.createApp(Counter).mount('#counter')
+		</script>
+	</body>
+</html>
