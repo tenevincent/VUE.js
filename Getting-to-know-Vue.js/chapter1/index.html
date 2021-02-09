@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <title>Getting to Know Vue.js</title>
+</head>
+
+<body>
+
+    <!-- Div to Mount App -->
+    <div id="app">
+        {{ propertyName }}
+
+        <p>emptyObject: {{ emptyObject }}</p>
+        <p>emptyString: {{ emptyString }}</p>
+        <p>nullProperty: {{ nullProperty }}</p>
+
+        <div>{{ propertyName }}</div>
+
+        <div style="border:1px black solid; margin-bottom: 10px;"> capitalizeText() </div>
+
+        <div style="border:1px blue solid; margin-bottom: 10px;"> capitalizedText </div>
+
+        <div style="border:2px maroon solid; margin-bottom: 10px;">{{ someHTML }}</div>
+        <div v-html="someHTML" style="border:1px green solid; margin-bottom: 10px;"> </div>
+
+
+    </div>
+
+
+    <!-- Reference to Vue.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Script Element for our first App -->
+    <script src="main.js">
+    </script>
+</body>
+
+</html>

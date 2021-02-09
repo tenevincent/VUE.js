@@ -3,16 +3,19 @@
 <head>
     <script>
         /*
-                                                                                                                                try {
-                                                                                                                                    window.dosomeunsupportedmethod();
-                                                                                                                                }
-                                                                                                                                catch (e) {
-                                                                                                                                    alert("O browser não suporta essa funcionalidade.");
-                                                                                                                                }
-                                                                                                                                */
+                                                                                                                                                                try {
+                                                                                                                                                                    window.dosomeunsupportedmethod();
+                                                                                                                                                                }
+                                                                                                                                                                catch (e) {
+                                                                                                                                                                    alert("O browser não suporta essa funcionalidade.");
+                                                                                                                                                                }
+                                                                                                                                                                */
 
         try {
             var canvas = document.getElementById("myCanvas");
+            canvas.innerHTML
+
+
             var context = canvas.getContext("2d");
             context.fillStyle = "blue";
             context.arc(50, 50, 25, 0, 360);

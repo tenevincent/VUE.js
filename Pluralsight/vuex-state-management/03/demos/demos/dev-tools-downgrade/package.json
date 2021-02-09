@@ -1,0 +1,40 @@
+{
+  "name": "vuex-state-management",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The getting started repo for the Pluralsight State Management With Vuex course.",
+  "author": "Jim Cooper",
+  "license": "ISC",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "keywords": [
+    "Vue.js",
+    "Vuex",
+    "state management",
+    "api"
+  ],
+  "dependencies": {
+    "@vuelidate/core": "^2.0.0-alpha.4",
+    "@vuelidate/validators": "^2.0.0-alpha.2",
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.12",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.10",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.10",
+    "@vue/cli-service": "^3.0.0-beta.10",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "@vue/eslint-config-airbnb": "^3.0.0-beta.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
